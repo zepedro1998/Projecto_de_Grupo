@@ -7,7 +7,7 @@ h1 {
 	text-align: center;
 	color: red;
 	font-family: Arial;
-    font-size:80px;
+    font-size:30px;
     margin-top:20px;
     margin-bottom: 0px;
     text-shadow: 0px 0px 0px #f72585; 
@@ -16,7 +16,7 @@ h1 {
 h2{
 	color: white;
 	text-align: center;
-	font-size: 60px;
+	font-size: 40px;
 	font-family: Times New Roman;
 
 }
@@ -28,3 +28,10 @@ h3{
 	font-family: helvetica;
 }
 
+h4{
+    color: white;
+	text-align: left;
+	font-size: 20px;
+	font-family: Arial;
+
+}
