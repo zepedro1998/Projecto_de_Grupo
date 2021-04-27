@@ -13,28 +13,6 @@ h1 {
     text-shadow: 0px 0px 0px #f72585; 
 }
 
-p{
-	text-transform: uppercase;
-	font-family: helvetica;
-	text-align: center;
-	font-size: 25px;
-	color: yellow;
-}
-
-a{
-	letter-spacing: 20px;
-	color: #f72585;
-	text-decoration: none;
-}
-
-ol{
-	outline-style: dotted;
-	color: white;
-	font-family: Neutral Face;
-	text-decoration-line: underline;
-
-}
-
 h2{
 	color: white;
 	text-align: center;
@@ -44,29 +22,9 @@ h2{
 }
 
 h3{
-	color: white;
+	color: purple;
 	text-align: center;
 	font-size: 25px;
 	font-family: helvetica;
 }
 
-ul{
-	border-left: 10px white;
-  background-color: #40E0D0;
-  opacity: 90%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: 10px solid white;
-   
-    margin-top: 10px;
-    margin-bottom: 50px;
-    color: white;
-	text-align: left;
-	font-size: 15px;
-	font-family: Arial;
-}
-
-strong {
-   
-    color: #F5F5F5;
-}
