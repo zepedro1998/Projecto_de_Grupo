@@ -1,65 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Animações, Transições e Transformações</title>
- <link rel="stylesheet" type="text/css" href="Estética_do_Site.css">
- 
+<title>Animações, Transições e Transformações</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8">
 </head>
 </body>
+<h1>Olá Mundo!</h1> 
+<p>Sejam bem-vindos ao nosso website do qual irão observar as várias animações e estilos do CSS e HTM! Esta página tem como objetivo demonstrar as capacidades artisticas das linguagens de programação anteriormente mencionadas, assim como exercicios para vos desafiar.</p>
+<h1>O que é Animação na web?</h1> 
+<p>É um conjunto de frames do qual na sua união criam um padrão ou uma sequencia que dá vida. Junto com a popularização da Web, animações para a mesma também se foram popularizando. GIF, uma sigla para Graphics Interchange Format (Formato de Intercâmbio de Gráficos), é um tipo de arquivo de imagem que permite que animações sejam vistas no navegador. Este era o formato mais popular para animações na Web até relativamente pouco tempo. Porém, é um formato limitado, permitindo apenas 256 cores simultâneas e muitas vezes gerando arquivos grandes para animações mais complexas.</p>
+<h1>Transição</h1>
+<p><strong>Como é que se cria uma Transcição no CSS?</strong></p>
 
-<h1>Sejam bem vindos ao nosso website do qual irão observar as várias animações e estilos do CSS e HTML. Esta página tem como objetivo demonstrar as capacidades artisticas dos programas anteriormente mencionados, assim como exercicios para vos desafiar.<h1>
-<h2> <b>O que é Animação na web?</b></h2> 
-<h3>É um conjunto de frames do qual na sua união criam um padrão ou uma sequencia que dá vida. Junto com a popularização da Web, animações para a mesma também foram se popularizando. GIF, uma sigla para Graphics Interchange Format (Formato de Intercâmbio de Gráficos), é um tipo de arquivo de imagem que permite que animações sejam vistas num Web Browser. Ele era o formato mais popular para animações na Web até relativamente pouco tempo. Porém, é um formato limitado, permitindo apenas 256 cores simultâneas e muitas vezes gerando arquivos grandes para animações mais complexas. Com o surgimento de outros formatos, como o Flash, criado pela Macromedia e actualmente mantido pela Adobe, ele passou a ser utilizado apenas para pequenas animações. O Flash também tem a vantagem de permitir uso de efeitos sonoros e de criar animações interativas, dentre outras. A nova versão do Flash já conta até com ferramentas para animação em 3D, que permite maiores possibilidades de efeitos nas animações.</h3>
-<h4> <b>Transcição</b>
-<p>Como é que se cria uma Transcição no CSS?
+<p>Para criar um efeito de Transição,temos que ter em conta dois aspetos:</p>
+<ul>
+	<li>A propriedade de CSS do qual queremos adicionar o efeito em si;</li>
+	<li>A duração do efeito.</li>
+</ul>
+<h2>Comandos:</h2>
+<ol>
+ 	<li>transition- Transição;</li>
+    <li>transition-delay- Atraso da Transição;</li>
+    <li>transition-duration- Duração da Transição;</li>
+    <li>transition-property- Propriedades da Transição;</li>
+    <li>transition-timing-function-Tempo da Transição;</li>
+</ol>
+<p>ATENÇÃO: Se a duração não for especificada, a transição não acontecerá pois o seu valor será 0.</p>
 
-<p>Para criar um efeito de Transição,temos que ter em conta dois aspetos:
+<h2>O que são animações CSS?</h2>
 
-    1.A propriedade de CSS do qual queremos adicionar o efeito em si; 
-    2. A duração do efeito.
+<p>Uma animação permite que um elemento mude gradualmente de um estilo para outro.</p>
 
-<p>Comandos:
-    transition- Transição;
-    transition-delay- Atraso da Transição;
-    transition-duration- Duração da Transição;
-    transition-property- Propriedades da Transição;
-    transition-timing-function-Tempo da Transição;
+<p>Podes alterar quantas propriedades CSS quiseres, quantas vezes quiseres</p>
 
+<p>Para usar animação CSS, deves primeiro especificar alguns keyframes para a animação.</p>
+<h2>Comandos:</h2>
+<ol>
+	<li>@keyframes</li>
+ 	<li>animation-name- Nome;</li>
+ 	<li>animation-duration- Duração;</li>
+ 	<li>animation-delay- Atraso;</li>
+ 	<li>animation-iteration-count- Interação;</li>
+ 	<li>animation-direction- Direção;</li>
+ 	<li>animation-timing-function- Função;</li>
+	<li>animation-fill-mode- Modo de Preenchimento;</li>
+ 	<li>animation</li>
+</ol>
 
-<p>ATENÇÃO: Se a duração não for especificada, a transição não acontecerá pois o seu valor será 0.
-
-<p>O que são animações CSS?
-
-<p>Uma animação permite que um elemento mude gradualmente de um estilo para outro.
-
-<p>Você pode alterar quantas propriedades CSS quiser, quantas vezes quiser.
-
-<p>Para usar animação CSS, você deve primeiro especificar alguns keyframes para a animação.
-<p>Comandos:
- <li>@keyframes
- <li>animation-name- Nome;
- <li>animation-duration- Duração;
- <li>animation-delay- Atraso;
- <li>animation-iteration-count- Interação;
- <li>animation-direction- Direção;
- <li>animation-timing-function- Função;
- <li>animation-fill-mode- Modo de Preenchimento;
- <li>animation
-
-
-<p>Os keyframes contêm os estilos que o elemento terá em determinados momentos.
-<p>Transformações CSS em 2D
-<p>As <strong>transformações CSS </strong> permitem mover, girar, dimensionar e inclinar elementos.
-<p>Comandos:
-<li>translate()- Translacão;
-<li>rotate()- Rotação;
-<li>scaleX()- Escala em Valor de X;
-<li>scaleY()- Escala em Valor de Y;
-<li>scale()- Escala Uniforme;
-<li>skewX()- Translação em Valor de X;
-<li>skewY()-Translação em Valor de Y;
-<li>skew()- Translação Uniforme;
-<li>matrix()- Combina os Parâmetros anteriores num só;<h4>
-
+<p>Os keyframes contêm os estilos que o elemento terá em determinados momentos.</p>
+<h2>Transformações CSS em 2D</h2>
+<p>As <strong>transformações CSS </strong> permitem mover, girar, dimensionar e inclinar elementos.</p>
+<h2>Comandos:</h2>
+<ol>
+<li>translate()- Translacão;</li>
+<li>rotate()- Rotação;</li>
+<li>scaleX()- Escala em Valor de X;</li>
+<li>scaleY()- Escala em Valor de Y;</li>
+<li>scale()- Escala Uniforme;</li>
+<li>skewX()- Translação em Valor de X;</li>
+<li>skewY()-Translação em Valor de Y;</li>
+<li>skew()- Translação Uniforme;</li>
+<li>matrix()- Combina os Parâmetros anteriores num só;</li>
+</ol>
+<h2>Exemplos:</h2>
+<ol>
+	<li>Exemplo de transição e transformação <a href="transição.html">aqui</a>!</li>
+ 	<li>Exemplo de animação de GIFs <a href="nyan.html">aqui</a>!</li>
+</ol>
+<h1>O Nosso Desafio</h1> 
+<p>Utilizando os conhecimentos adquiridos, neste website e durante a nossa <a href="gravando">apresentação</a> propomos a realização de uma animação com movimento (qualquer tipo) e transformação (mudança de cor, escala, etc...). Coloca o exercício nas tuas entregas e aguarda pelo nosso feedback!</p>
 </body>
 </html>
