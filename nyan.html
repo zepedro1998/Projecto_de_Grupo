@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title>Nyan</title>
+  <link rel="stylesheet" type="text/css" href="styleEx.css">
+  <meta charset="utf-8">
+<style>
+div {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-image: url(https://i.pinimg.com/originals/75/ea/15/75ea15096b9b17da7210ac9621ec5279.gif);
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  { left:100px; top:0px;}
+  50%  { left:100px; top:100px;}
+  75%  { left:0px; top:100px;}
+  100% { left:0px; top:0px;}
+}
+</style>
+</head>
+<body>
+
+<h1>Nyan!</h1>
+
+<p>Também é possível mover animações:
+<div></div></p>
+
+
+</body>
+
+</html>
